@@ -19,11 +19,7 @@ It waits while you're away or your screen is locked. A moment you ignore fades o
 
 1. Download **Here.zip** from [Releases](../../releases/latest) and unzip it.
 2. Move **Here.app** to Applications.
-3. The app isn't notarized, so the first time you open it, **right-click → Open → Open**.
-   If macOS still blocks it, run:
-   ```bash
-   xattr -dr com.apple.quarantine /Applications/Here.app
-   ```
+3. The app isn't notarized, so macOS blocks it the first time. Double-click it, close the warning, then go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway**. On macOS 14 you can instead **right-click → Open → Open**.
 4. Look for ◌ in your menu bar. From there you can:
    - see how many times you were awake today
    - show a moment now, or try a specific one
